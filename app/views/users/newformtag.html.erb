@@ -3,16 +3,18 @@
 
 2) Voici le form-tag
 <%= form_tag "/new", method: "post" do%>
-  Comment vous appelez-vous ?<br>
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <input type="text" name="username" value="votre prénom">
-  <br>
-  <br>
-  Renseignez votre email :<br>
-  <input type="email"  name="email">
-  <br>
-  Votre bio<br>
-  <textarea type="text" name="bio" value="votre nom">
-  </textarea><br><br>
-  <input type="submit" value="Submit">
+  <div class="form-group">
+    Comment vous appelez-vous ?<br>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="text" name="username" value="votre prénom">
+    <br>
+    <br>
+    Renseignez votre email :<br>
+    <input type="email"  name="email">
+    <br>
+    Votre bio<br>
+    <textarea type="text" name="bio" value="votre nom">
+    </textarea><br><br>
+    <input type="submit" value="Submit">
+  </div>
 <%end%>
