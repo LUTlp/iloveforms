@@ -5,6 +5,8 @@ Bienvenue sur mon application de ce mardi !
 Tu peux retrouver le site qui correspond à ce code sur :
 https://iliveformslutlp.herokuapp.com
 
+La navbar fonctionne. Grand bien t'en fasse !
+
 ## Marche à suivre
 
 Pour lire le code, lance ton ```bundle install --without production```
@@ -14,3 +16,6 @@ tu verras dans le gemfile qu'on ne gère pas la base de données de la même fa�
 ## Pour info
 
 * Ruby version : 2.5.1
+
+A bientôt,
+LUTlp, alias R.A.P.
